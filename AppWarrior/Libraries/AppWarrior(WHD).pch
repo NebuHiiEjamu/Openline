@@ -1,0 +1,25 @@
+
+#ifdef __cplusplus
+	#pragma precompile_target "AWHeaders(WHD)"	
+#else
+	#error "These header files require C++"
+#endif
+
+#define DEBUG		1
+#define WIN32		1
+
+#include <Win32Headers++.mch>
+#include "AppWarrior.lib.h"
+
+//??
+#define memcpy		std::memcpy
+#define memset		std::memset
+#define memcmp		std::memcmp
+
+#define strcpy		std::strcpy
+#define strlen		std::strlen
+#define strtol		std::strtol
+#define strtoul		std::strtoul
+
+#define calloc		std::calloc
+#define free		std::free

@@ -1,0 +1,2 @@
+Authenticate user='test99.nraonline@ispdial.org', ip='65.141.43.234'
+HTTP= http://join.hotlineisp.com/verifyactive.asp?username=test99.nraonline@ispdial.org&ip=65.141.43.234

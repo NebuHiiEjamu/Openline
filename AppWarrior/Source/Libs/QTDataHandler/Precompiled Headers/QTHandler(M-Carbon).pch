@@ -1,0 +1,16 @@
+
+#ifdef __cplusplus
+	#pragma precompile_target "QTHandlerHeaders(M-Carbon)"
+#else
+	#error "These header files require C++"
+#endif
+
+#pragma once on
+
+#define HL_Uses_BigRedH_Namespace 	1
+#define DEBUG 						0
+#define BUILDING_APP_ 				0
+
+#include <MacHeadersCarbon.h>
+#include "AW.h"
+

@@ -1,0 +1,12 @@
+
+#ifdef __cplusplus
+	#pragma precompile_target "AWHeaders(M-Carbon)"
+#else
+	#error "These header files require C++"
+#endif
+
+#define DEBUG				0
+#define MACINTOSH			1
+#define MACINTOSH_CARBON	1
+
+#include "AppWarrior.lib.h"

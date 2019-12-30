@@ -1,0 +1,4 @@
+This is the server agreement.  
+The server owner puts any kind of conditions or conditions they want you to agree to before entering.  
+They can change this agreement by modifying the agreement.txt file in the server directory.
+Say you agree!

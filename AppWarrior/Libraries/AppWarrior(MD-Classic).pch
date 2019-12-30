@@ -1,0 +1,12 @@
+
+#ifdef __cplusplus
+	#pragma precompile_target "AWHeaders(MD-Classic)"
+#else
+	#error "These header files require C++"
+#endif
+
+#define DEBUG				1
+#define MACINTOSH			1
+#define MACINTOSH_CLASSIC	1
+
+#include "AppWarrior.lib.h"
