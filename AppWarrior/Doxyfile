@@ -917,7 +917,7 @@ RECURSIVE              = YES
 # Note that relative paths are relative to the directory from which doxygen is
 # run.
 
-EXCLUDE                = "Source/Libs/Internet Config" Source/Libs/MoreFiles Source/Libs/QuickTime Source/Libs/UUID Source/Libs/zlib-1.1.3
+EXCLUDE                = "Source/Libs/Internet Config" Source/Libs/MoreFiles Source/Libs/QuickTime Source/Libs/UUID Source/Libs/zlib-1.1.3 Source/Images/Jpeg
 
 # The EXCLUDE_SYMLINKS tag can be used to select whether or not files or
 # directories that are symbolic links (a Unix file system feature) are excluded
